@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>     
+    <legend>personal info</legend>
+    <label for="name">first name:</label><br>
+    <input type="text" name="name" placeholder="enter first name" id="name">
+    <br>
+    <br>
+    <label for="name">last name:</label><br>
+    <input type="text" name="name" placeholder="enter last name" id="name">
+    <br>
+    <br>
+    <label for="email">email:</label><br>
+    <input type="email" name="email" placeholder="enter email" id="email">
+    <br>
+    <br>
+    <button>submit</button>
+    <br>
+    <textarea id="" name="" placeholder="enter feedback"></textarea>
+    <br>
+    <fieldset> 
+    <legend>vehicles and types</legend>  
+    <select name="vehicless">
+        <optgroup label="cars">
+            <option value="swift">swift</option>
+            <option value="alto">alto</option>
+        </optgroup>
+        <optgroup label="bikes">
+            <option value="yamaha">yamaha</option>
+            <option value="royalenfield">royalenfield</option>
+        </optgroup>
+        <optgroup  label="autos">
+            <option value="yellow">yellow</option>
+            <option value="red">red</option>
+        </optgroup>
+    </select>
+    </fieldset>
+</body>
+</html>
