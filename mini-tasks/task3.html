@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+</head>
+<style>
+    div p{
+        color:yellow;
+    }
+    h1+p{
+        color:red;
+    }
+    h2~p{
+        color:blue;
+    }
+    h3,h4{
+        color:purple;
+    }
+</style>
+<body>
+    <h1>hello</h1>
+    <!--this is decedent div-->
+    <div>
+        <p>this is the first hello</p>
+        <p>this is the second hello</p>
+        <p>this is the third hello</p>
+    </div>
+    <p>this is the outside of the div</p>
+<!-- this is adjacent sibling selector-->
+    <h1>hello h1</h1>
+    <p>this is the first p</p>
+    <p>this is the second p</p>
+<!--this is general-->
+    <h2>hello h2</h2>
+    <p>this is the first p</p>
+    <p>this is the second p</p>
+<!--this is group selector-->
+    <h3>hello h3</h3>
+    <h4>this is the first p</h4>
+
+    
+</body>
+</html>
