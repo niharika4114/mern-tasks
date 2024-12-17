@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.heading{
+    background-image:url("./pexels-photo-2325447.jpeg");
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+}
+.heading h1{
+    text-align:center;
+    font-size:50px;
+    color:rgb(91, 11, 11);
+    padding-top:40vh;
+}
+.heading p{
+    text-align:center;
+    font-size:25px;
+    color:#99582a;
+}
+button{
+    cursor:pointer;
+    background-color:hsl(0, 28%, 50%);
+    padding:10px 15px;
+    margin-top:20px;
+    margin-left:47%;
+}
