@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <style>
+        fieldset{
+            background-color:whitesmoke;
+            }
+    </style>
+</head>
+<body>
+    <center><h1>EVENT REGISTRATION</h1></center>
+    <b><h1>event details</h1></b>
+    <p><b>event name</b>:hackathon<br><b>event date</b>:20/01/24<br><b>time:</b>9:00AM to 9:00PM<br><b>venue:</b>aitam college</p>
+    <h1>terms and conditions</h1>
+    <p>1.bring laptop with full charge<br>2.wear proper dresscode and id card is must<br>3.must carry entrypass</p>
+    <fieldset>
+        <legend>Details</legend>
+        <b><label for="name">Username:</label></b>
+        <br>
+        <input type="text" name="name" id="name" placeholder="enter your name">
+        <br>
+        <br>
+        <b><label for="email">Email:</label></b>
+        <br>
+        <input type="email" name="email" id="email" placeholder="enter the email">
+        <br>
+        <br>
+        <b><label for="number">Mobile:</label></b>
+        <br>
+        <input type="number" name="number" id="number" placeholder="enter phonenumber">
+        <br>
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>student details</legend>
+        <b><label for="typee">Registration type:</label></b>
+        <br>
+        <select name="typee">
+            <option value="Day scholar">Dayscholar</option>
+            <option value="Hosteler">Hosteler</option>
+        </select>
+        <br>
+        <br>
+        <b><label for="id">Student id:</label></b>
+        <br>
+        <input type="text" name="id" id="id" placeholder="enter id">
+        <br>
+        <br>
+        <b><label for="gender">Gender:</label></b>
+        <br>
+        <input type="radio" name="gender" id="gender">male
+        <input type="radio" name="gender" id="gender">female
+        <input type="radio" name="gender" id="gender">other
+        <br>
+        <br>
+    </fieldset>
+    <fieldset>
+        <legend>pass collection</legend>
+        <b><label for="passtype">Pass type:</label></b>
+        <br>
+        <select name="passtype">
+            <option value="standard">STANDARD</option>
+            <option value="vip">VIP</option>
+        </select>
+        <br>
+        <br>
+        <b><label for="pass">pass:</label></b>
+        <br>
+        <input type="file" name="pass" id="pass">
+    </fieldset>
+    <input type="checkbox" name="checkbox" id="checkbox">Terms and conditions are accepted
+    <br>
+    <button>submit</button>
+</body>
+</html>
