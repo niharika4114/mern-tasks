@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>tables</title>
+        <style> 
+        table, td {
+            border: 2px solid black;
+            border-collapse: collapse; 
+        } 
+        body{
+            background-color:whitesmoke;
+        }
+        </style>
+    </head>
+    <body>
+        <center><h1><i>nested table</i></h1></center>
+        <center><table border="1" cellspacing="1" cellpadding="5" style="border-color:black; background-color:lavender;">
+            <tr>
+                <td align="middle"height="50" width="100">table1</td>
+                <td>
+                    <table border="1" cellspacing="1" cellpadding="5">
+                        <tr>
+                            <td align="middle"height="50" width="100">table1</td>
+                            <td align="middle"height="50" width="100">table2</td>
+                        </tr>
+                        <tr>
+                            <td align="middle"height="50" width="100">table3</td>
+                            <td>
+                                <table border="1" cellspacing="1" cellpadding="5">
+                                    <tr>
+                                        <td align="middle"height="50" width="100">table1</td>
+                                        <td align="middle"height="50" width="100">table2</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="middle"height="50" width="100">table3</td>
+                                        <td align="middle"height="50" width="100">table4</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table></center>
+                </td>
+            </tr>
+            <tr>
+                <td align="middle"height="50" width="100">table3</td>
+                <td align="middle"height="50" width="100">table4</td>
+            </tr>
+        </table>
+    </body>
+</html>
